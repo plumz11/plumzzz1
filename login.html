@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenneth Meat Shop - Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Kenneth Meat Shop</h1>
+    <p>Premium Quality Meats, Fresh Every Day</p>
+
+    <form onsubmit="return login(event)">
+      <input type="text" id="username" placeholder="Username" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    function login(e) {
+      e.preventDefault(); // Stop form from refreshing the page
+      window.location.href = "index.html"; // Redirect no matter what is entered
+    }
+  </script>
+</body>
+</html>

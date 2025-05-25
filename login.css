@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: url('meat-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  padding: 30px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d62828;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
